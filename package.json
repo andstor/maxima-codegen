@@ -1,0 +1,58 @@
+{
+  "name": "maxima-codegen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andstor/maxima-codegen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andstor/maxima-codegen/issues"
+  },
+  "homepage": "https://github.com/andstor/maxima-codegen",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "watch": "npm-watch"
+  },
+  "files": [
+    "dist/src"
+  ],
+  "keywords": [
+    "latex",
+    "parser",
+    "peggy"
+  ],
+  "author": {
+    "name": "André Storhaug",
+    "email": "andr3.storhaug@gmail.com",
+    "url": "https://github.com/andstor"
+  },
+  "license": "MIT",
+  "types": "dist/src",
+  "sideEffects": false,
+  "devDependencies": {
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.4.12",
+    "latex-math-parser": "^1.0.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "npm-watch": "^0.11.0",
+    "source-map-support": "^0.5.19",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src/generator.ts"
+      ],
+      "extensions": [
+        "ts"
+      ]
+    }
+  }
+}
