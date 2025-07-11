@@ -34,13 +34,14 @@
   "types": "dist/src",
   "sideEffects": false,
   "devDependencies": {
+    "@andstor/latex-math-parser": "^1.0.1",
     "@types/chai": "^4.2.21",
     "@types/mocha": "^9.0.0",
     "@types/node": "^16.4.12",
-    "latex-math-parser": "^1.0.0",
     "chai": "^4.3.4",
     "mocha": "^9.0.3",
     "npm-watch": "^0.11.0",
+    "pegjs-backtrace": "^0.2.1",
     "source-map-support": "^0.5.19",
     "ts-node": "^10.1.0",
     "typescript": "^4.3.5"

@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import parse from 'latex-math-parser';
+import parse from '@andstor/latex-math-parser';
 
 describe('latex parser should parse', () => {
 

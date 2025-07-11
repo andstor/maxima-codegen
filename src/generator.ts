@@ -239,6 +239,16 @@ class CodeGenerator {
     return [this.generate(node.name), parenthesize(content)];
   }
 
+  fraction(node) {
+    console.log("fraction");
+    let content = [
+      this.generate(node.numerator),
+      '/',
+      this.generate(node.denominator)
+    ];
+    return [parenthesize(content)];
+  }
+
   matrix(node) {
     //console.log("matrix");
     let content = [];
