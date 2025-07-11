@@ -1,5 +1,5 @@
 {
-  "name": "maxima-codegen",
+  "name": "@andstor/maxima-codegen",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
